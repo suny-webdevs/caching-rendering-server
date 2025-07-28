@@ -5,7 +5,7 @@ import { Bike } from "./app/modules/bikes/bike.model"
 const app: Application = express()
 
 app.use(express.json())
-app.use(cors())
+app.use(cors({ origin: ["http://localhost:3000"] }))
 
 app.get("/", (req: Request, res: Response) => {
   res.json({
@@ -15,6 +15,15 @@ app.get("/", (req: Request, res: Response) => {
 })
 
 // APIs
+app.post("/api/bikes", async (req: Request, res: Response) => {
+  try {
+    const data = await Bike.create(req.body)
+    res.json({ success: true, message: "Bike created successfully", data })
+  } catch (error) {
+    res.json({ success: false, message: "Something went wrong", error })
+  }
+})
+
 app.get("/api/bikes", async (req: Request, res: Response) => {
   try {
     const data = await Bike.find()
