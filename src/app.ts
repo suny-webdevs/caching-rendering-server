@@ -5,7 +5,11 @@ import { Bike } from "./app/modules/bikes/bike.model"
 const app: Application = express()
 
 app.use(express.json())
-app.use(cors({ origin: ["http://localhost:3000"] }))
+app.use(
+  cors({
+    origin: ["http://localhost:3000", "https://caching-rendaring.vercel.app"],
+  })
+)
 
 app.get("/", (req: Request, res: Response) => {
   res.json({
