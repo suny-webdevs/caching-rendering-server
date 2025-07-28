@@ -1,9 +1,6 @@
 import express, { Application, Request, Response } from "express"
 import cors from "cors"
-import config from "./config"
-import mongoose from "mongoose"
-import { Bike } from "./modules/bikes/bike.model"
-import { Server } from "http"
+import { Bike } from "./app/modules/bikes/bike.model"
 
 const app: Application = express()
 
@@ -36,18 +33,4 @@ app.get("/api/bikes/:id", async (req: Request, res: Response) => {
   }
 })
 
-// Server
-let server: Server
-
-async function main() {
-  try {
-    await mongoose.connect(config.mongodb_uri as string)
-
-    server = app.listen(config.port, () => {
-      console.log(`Server is live on http://localhost:${config.port}`)
-    })
-  } catch (error) {
-    console.log(error)
-  }
-}
-main()
+export default app
