@@ -1,0 +1,67 @@
+{
+  "bikes": [
+    {
+      "id": "1",
+      "title": "Honda CB Hornet 2.0",
+      "description": "The 2025 Honda CB Hornet 2.0 retains its aggressive stance and muscular streetfighter styling, backed by a refined 184cc single-cylinder, air-cooled engine delivering smooth mid-range performance ideal for urban commuting. With premium USD front forks, a mono-shock rear, single-channel ABS, and full-LED lighting, the Hornet 2.0 offers a perfect blend of performance, reliability, and practicality in the 180cc segment. It appeals to riders looking for daily usability with a sporty character.",
+      "category": "commuter",
+      "price": 295000
+    },
+    {
+      "id": "2",
+      "title": "Hero Xtream 250",
+      "description": "The Hero Xtreme 250 in its 2025 iteration represents Hero MotoCorp’s growing ambition in the quarter-liter segment. Powered by a 249cc oil-cooled engine, it delivers a robust torque curve suitable for city traffic as well as light touring. It features updated styling, a digital instrument cluster, and dual-channel ABS for enhanced safety. The Xtreme 250 focuses on affordability, fuel efficiency, and rider comfort, making it a pragmatic choice for young riders stepping into the 250cc category.",
+      "category": "naked-sports",
+      "price": 440000
+    },
+    {
+      "id": "3",
+      "title": "Pulser N250",
+      "description": "The Pulsar N250 continues to be Bajaj’s flagship in the naked streetfighter category for 2025. It is equipped with a 249cc oil-cooled engine producing ample low-end and mid-range power, ideal for urban sprints and highway cruising. With features like a bi-functional LED projector headlamp, dual-channel ABS, and a semi-digital instrument console, the N250 combines modern tech with the Pulsar legacy of rugged reliability. Its updated styling, comfortable riding posture, and predictable handling make it a well-rounded performer.",
+      "category": "commuter",
+      "price": 272000
+    },
+    {
+      "id": "4",
+      "title": "Yamaha R15",
+      "description": "The 2025 Yamaha R15 V5 stands as a benchmark in the entry-level supersport segment. With a high-revving 155cc liquid-cooled engine featuring VVA (Variable Valve Actuation), the bike offers thrilling performance across the rev range. The Deltabox frame, USD forks, dual-channel ABS, quickshifter, and traction control (in higher variants) make it track-capable yet street-friendly. Aggressively styled with aerodynamics inspired by Yamaha’s R-series DNA, the R15 appeals to young, performance-oriented enthusiasts.",
+      "category": "sports",
+      "price": 550000
+    },
+    {
+      "id": "5",
+      "title": "CF MOTO 300",
+      "description": "CF Moto’s 300NK (2025) delivers big-bike aesthetics and performance at a competitive price point. Powered by a 292cc liquid-cooled engine, it produces respectable power and torque suitable for both city and highway use. The bike features a lightweight trellis frame, ride-by-wire throttle, TFT display, and a distinctive European-inspired design. With a focus on style, advanced features, and value, the 300NK targets newer riders looking for something premium and different in the sub-400cc naked segment.",
+      "category": "sports",
+      "price": 450000
+    },
+    {
+      "id": "6",
+      "title": "Yamaha MT-15",
+      "description": "The Yamaha MT-15 V3 (2025) evolves as a compact hyper-naked motorcycle designed for agile urban riding. Featuring the same 155cc VVA engine as the R15, it delivers responsive performance with excellent fuel efficiency. The updated model includes USD forks, a fully digital display, and aggressive, predator-style LED headlamps. Lightweight, sharp-handling, and feature-rich, the MT-15 is aimed at riders seeking adrenaline-packed commutes with a bold visual statement.",
+      "category": "naked-sports",
+      "price": 500000
+    },
+    {
+      "id": "7",
+      "title": "KTM Duke 250",
+      "description": "The 2025 KTM Duke 250 takes a step closer to its 390 sibling in both styling and performance. With sharper bodywork, a revised split-trellis frame, and a Euro 5/BS6.2 compliant 248.8cc engine, it delivers class-leading power, superior cornering capability, and a premium feel. KTM has refined the ergonomics and enhanced the instrument cluster to meet modern expectations. It remains a go-to option for enthusiasts seeking a performance-centric street bike with track-ready dynamics.",
+      "category": "naked-sports",
+      "price": 700000
+    },
+    {
+      "id": "8",
+      "title": "BMW 310 GS",
+      "description": "BMW Motorrad’s G 310 GS (2025) continues to lead the entry-level adventure segment with its rugged design, long-travel suspension, and high ground clearance. The 313cc liquid-cooled engine, co-developed with TVS, is smooth and tractable, perfect for both city commutes and moderate off-road adventures. With ride-by-wire, assist and slipper clutch, and dual-channel ABS, the 310 GS offers the refinement and brand cachet of BMW in a beginner-friendly ADV platform.",
+      "category": "adb",
+      "price": 500000
+    },
+    {
+      "id": "9",
+      "title": "Hero Xtream 150",
+      "description": "The Hero Xtreme 150 (2025) is a stylish commuter motorcycle designed for cost-effective daily mobility with a dash of sportiness. Powered by a 149cc air-cooled engine, it offers smooth throttle response and commendable mileage. Modern elements like LED DRLs, a semi-digital console, and aggressive tank shrouds enhance its urban appeal. Positioned for budget-conscious riders, the Xtreme 150 offers dependability, ease of use, and affordable ownership without sacrificing aesthetic flair.",
+      "category": "commuter",
+      "price": 240000
+    }
+  ]
+}
